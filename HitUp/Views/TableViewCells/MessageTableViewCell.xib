@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="KGk-i7-Jjw" customClass="MessageTableViewCell" customModule="HitUp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="355" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cOM-HW-pxc">
+                        <rect key="frame" x="10" y="10" width="335" height="50"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="dXe-q1-XO8">
+                                <rect key="frame" x="0.0" y="4" width="44" height="42.666666666666671"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="JQk-Nl-0Jx"/>
+                                    <constraint firstAttribute="width" constant="44" id="PbM-4W-X9a"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G4h-Br-Say">
+                                <rect key="frame" x="44" y="0.0" width="249" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hN4-gm-xGq">
+                                        <rect key="frame" x="10" y="10" width="229" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="hN4-gm-xGq" secondAttribute="bottom" constant="10" id="0oJ-JP-Wmm"/>
+                                    <constraint firstItem="hN4-gm-xGq" firstAttribute="leading" secondItem="G4h-Br-Say" secondAttribute="leading" constant="10" id="Gts-uG-P1P"/>
+                                    <constraint firstAttribute="trailing" secondItem="hN4-gm-xGq" secondAttribute="trailing" constant="10" id="gIs-CG-foC"/>
+                                    <constraint firstItem="hN4-gm-xGq" firstAttribute="top" secondItem="G4h-Br-Say" secondAttribute="top" constant="10" id="pUI-rd-fjp"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Znb-fM-GOc">
+                                <rect key="frame" x="293" y="5" width="42" height="40.666666666666671"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="MNs-RN-bur"/>
+                                    <constraint firstAttribute="width" constant="42" id="Xm3-K6-KoO"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cOM-HW-pxc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="1NL-qx-omL"/>
+                    <constraint firstAttribute="trailing" secondItem="cOM-HW-pxc" secondAttribute="trailing" constant="10" id="J1B-r1-y8L"/>
+                    <constraint firstItem="cOM-HW-pxc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="WZo-4k-WYc"/>
+                    <constraint firstAttribute="bottom" secondItem="cOM-HW-pxc" secondAttribute="bottom" constant="10" id="bhi-yZ-2q4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="receiveImageView" destination="dXe-q1-XO8" id="5B5-QC-ggS"/>
+                <outlet property="textMessageLabel" destination="hN4-gm-xGq" id="gim-l5-kjt"/>
+            </connections>
+            <point key="canvasLocation" x="251.14503816793894" y="28.87323943661972"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="person.circle" catalog="system" width="128" height="123"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

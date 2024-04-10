@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "57D5DC7C-33A3-45C1-A776-E54C3F65C3A1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B1B3D18-3397-451E-A0D5-5B5CB6DC4B06"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HitUp/ViewControllers/GroupViews/GroupDisplayTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2B1B3D18-3397-451E-A0D5-5B5CB6DC4B06 - fa72ea25bd64e273"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HitUp.GroupDisplayTableViewController.prepare(for: __C.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  moduleName = "HitUp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/spencermclaughlin/Desktop/HitUp/HitUp/ViewControllers/GroupViews/GroupDisplayTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "4132">
+               </Location>
+               <Location
+                  uuid = "2B1B3D18-3397-451E-A0D5-5B5CB6DC4B06 - fa72ea25bd64e273"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HitUp.GroupDisplayTableViewController.prepare(for: __C.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  moduleName = "HitUp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/spencermclaughlin/Desktop/HitUp/HitUp/ViewControllers/GroupViews/GroupDisplayTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "4124">
+               </Location>
+               <Location
+                  uuid = "2B1B3D18-3397-451E-A0D5-5B5CB6DC4B06 - fa72ea25bd64e254"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HitUp.GroupDisplayTableViewController.prepare(for: __C.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  moduleName = "HitUp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/spencermclaughlin/Desktop/HitUp/HitUp/ViewControllers/GroupViews/GroupDisplayTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "4068">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
